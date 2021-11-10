@@ -178,6 +178,44 @@ img{
     text-align: center;
 }
 
+/* ======================================== BUTTONS STYLING  ==========================================*/
+.button{
+    display: inline-block;
+    background: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+    color: #FFF;
+}
+
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: var(--first-color-lighter);
+}
+
+
+
+
 /* ======================================== LAYOUT  ==========================================*/
 .container{
     margin-right: var(--mb-1);
@@ -304,18 +342,21 @@ img{
 .home{
     height: 90vh;
     align-content: space-between;
+    margin-top: var(--mb-3);
 }
 
 .home__container{
-    gap: 1rem;
-    padding-left: 0;
-    margin-left: var(--mb-1-25);
     display: flex;
+    gap: 1.75rem;
+    padding-left: 0;
+    margin-left: var(--mb-1);
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home__content{
     display: grid;
-    grid-template-columns: .08fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 'home__social home__content';
     padding-top: var(--mb-2-5);
     align-items: center;
