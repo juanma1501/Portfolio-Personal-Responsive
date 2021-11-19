@@ -92,3 +92,20 @@ var swiper = new Swiper('.blog-slider', {
     }
   });
 console.log("El portfolio FUNCIONA")
+
+
+// ============================================ SCROLL TOP  ============================================
+function scrollUp(){
+  const scrollup = document.getElementById('scroll-up');
+  //Cuando el scroll > 560 /altura, el icono debe aparecer y haciéndole click nos lleva arriba.
+  if(this.scrollY >= 560){
+    scrollup.classList.add('show-scroll');
+  }
+  else {
+    scrollup.classList.remove('show-scroll')
+  }
+
+  console.log("El scroll FUNCIONA")
+}
+
+window.addEventListener('scroll', scrollUp)
