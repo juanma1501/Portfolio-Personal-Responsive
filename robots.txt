@@ -3,5 +3,4 @@ Sitemap: https://juanmanuelpa.com/sitemap.xml
 User-agent: *
 Disallow: /css/
 Disallow: /js/
-Disallow: /argon-design-system-master/
 Disallow: /README.md
