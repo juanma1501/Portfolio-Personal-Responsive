@@ -1357,6 +1357,10 @@ form textarea {
     margin-right: var(--mb-1);
   }
 
+  #home{
+    margin-bottom: 400px;
+  }
+
   .qualification__start-icon {
     position: absolute;
     transform: translateY(69%);
@@ -1414,6 +1418,10 @@ form textarea {
   }
   .home__data {
     grid-column: initial;
+  }
+
+  #home{
+    margin-bottom: 400px;
   }
 
   .about__container,
