@@ -67,7 +67,7 @@ console.log("Quitar menu FUNCIONA")
 
 // ============================================ Typewriter Effect  ============================================
 new Typewriter('#typewriter', {
-  strings: ['Juan Manuel Porrero', 'Estudiante', 'Ingeniería Infomática'],
+  strings: ['Juan Manuel Porrero', 'Estudiante', 'Ingeniería Informática'],
   autoStart: true,
   loop: true,
   cursor: "|"
